@@ -5,7 +5,8 @@ import { StyledCard, StyledDivCard, StyledAsideCard } from "../../List/Card/styl
 
 export function Card({note, removeNoteFromList}){
     return(
-        <StyledCard border={entrada}>
+        <StyledCard border={note.selectedOption=== "entrada" ? "entrada" : "despesa"} >
+            {console.log(note.selectedOption)}
             <StyledDivCard>
                 <Text_title_1>{note.description}</Text_title_1>
                 <Text_1 >{note.selectedOption}</Text_1>
