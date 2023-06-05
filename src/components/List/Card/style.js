@@ -6,8 +6,8 @@ export const StyledCard = styled.li`
     justify-content: space-between;
     padding: 0.5rem 0.875rem;
     background-color: var(--color-grey-1);
-    margin-bottom: 0.9375rem;
     height: 5.4375rem;
+    margin-bottom: 1rem;
 
     ${({border})=>{
         if(border === "entrada"){
@@ -22,7 +22,7 @@ export const StyledCard = styled.li`
     }}
 
     h1{
-        margin-bottom: 0.125rem;
+        margin-bottom: 0.1rem;
     }
     button{
         margin-top: 0.375rem;
