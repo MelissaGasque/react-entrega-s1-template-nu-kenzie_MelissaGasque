@@ -1,6 +1,6 @@
 import { GlobalReset } from "./styles/reset.js"
 import { GlobalStyles } from "./styles/globalStyle.js"
-import {StyledContainer} from "./styles/container.js"
+import { StyledContainer } from "./styles/container.js"
 
 import { Header } from "./components/Header/index.jsx"
 import { Form } from "../src/components/Form/index.jsx"

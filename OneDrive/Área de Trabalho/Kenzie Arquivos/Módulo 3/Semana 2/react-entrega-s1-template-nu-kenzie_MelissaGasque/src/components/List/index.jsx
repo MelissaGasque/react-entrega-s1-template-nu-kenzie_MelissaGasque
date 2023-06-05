@@ -1,4 +1,3 @@
-// import { TotalMoney } from "../TotalMoney"
 import { Card } from "./Card"
 import { Text_title_1, Text_title_2 } from "../../styles/Typography"
 import { StyledSectionList } from "./style"

@@ -12,11 +12,11 @@ export const StyledCard = styled.li`
     ${({border})=>{
         if(border === "entrada"){
             return css`
-              border-left: 2px solid var(--color-color-secondary);
+              border-left: 4px solid var(--color-color-secondary);
             `
         }else if(border === "despesa"){
             return css`
-                 border-left: 2px solid var(--color-grey-2);
+                 border-left: 4px solid var(--color-grey-2);
             `
         }
     }}
@@ -26,6 +26,13 @@ export const StyledCard = styled.li`
     }
     button{
         margin-top: 0.375rem;
+    }
+
+    @media(max-width: 982px){
+       flex-direction: column;
+       height: 7.5rem;
+       padding: 1rem 0.875rem;
+
     }
 `
 export const StyledDivCard = styled.div`

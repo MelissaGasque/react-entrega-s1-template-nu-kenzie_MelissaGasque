@@ -2,7 +2,6 @@ import { Text_title_1, Text_title_3,  Text_2 } from "../../styles/Typography"
 import { StyledTotalMoney, StyledDiv } from "./styles"
 
 export function TotalMoney({noteList}){
-    // console.log(noteList)
     
     const resultado = noteList.reduce((acumulator, note)=>{
         let result = 0

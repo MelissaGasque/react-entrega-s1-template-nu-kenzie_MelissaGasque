@@ -1,4 +1,4 @@
-import { Text_title_1, Text_1, Text_2  } from "../../../styles/Typography"
+import { Text_title_1, Text_1, Text_2 } from "../../../styles/Typography"
 import { StyledButton } from "../../../styles/Button"
 import { StyledCard, StyledDivCard, StyledAsideCard } from "../../List/Card/style"
 

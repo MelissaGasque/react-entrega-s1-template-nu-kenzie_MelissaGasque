@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Select } from "./Select";
+import { Select } from "./Select"
 import { v4 as uuidv4 } from "uuid"
 import { TotalMoney } from "../TotalMoney/index"
 
@@ -12,7 +12,7 @@ export function Form({noteList, setNoteList}){
 
     const [description, setDescription] = useState("")
     const [amount, setAmount] = useState("1")
-    const [selectedOption, setSelectedOption] = useState("");
+    const [selectedOption, setSelectedOption] = useState("")
 
     
     function addCardToList(){

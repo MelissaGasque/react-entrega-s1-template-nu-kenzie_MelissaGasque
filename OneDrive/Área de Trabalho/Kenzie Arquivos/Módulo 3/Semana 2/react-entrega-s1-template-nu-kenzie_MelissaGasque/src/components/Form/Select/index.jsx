@@ -1,4 +1,4 @@
-import {StyledSelect} from "../../../styles/form"
+import { StyledSelect } from "../../../styles/form"
 
 export function Select({ value, onChange }){
   return (
